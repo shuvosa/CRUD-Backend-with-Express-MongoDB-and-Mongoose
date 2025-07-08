@@ -27,6 +27,26 @@ This project is a simple backend server built with Node.js, Express, and MongoDB
 2.Install dependencies:
   ```sh
      npm install
+```
+3.Update the MongoDB connection string in index.js if needed.
+
+Running the Server
+
+For development (with auto-reload):
+  ```sh
+   npm run dev
+```
+For production:
+ ```sh
+  npm start
+```
+The server will run on http://localhost:5000 by default.
+
+API Endpoints
+GET /api/data
+Fetch all user data from the database.
+
+
 
 
 
