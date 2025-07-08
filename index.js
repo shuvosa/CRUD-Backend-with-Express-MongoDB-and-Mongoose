@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 // MongoDB connection URI
-const mongoURI = 'mongodb+srv://shuvo:shuvo2222@cluster0.gmiga5l.mongodb.net/sk?retryWrites=true&w=majority&appName=Cluster0';
+const mongoURI = 'YOUR MONGODB_URL';
 
 // Connect to MongoDB with enhanced error handling
 mongoose.connect(mongoURI, {
